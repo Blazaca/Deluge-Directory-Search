@@ -58,6 +58,16 @@ Download and place file_fixer.py into the ROOT folder of your Deluge's sd card.
 (last time I'll remind you please backup your files incase this doesn't work that way you can revert and
 still use the deluge)
 
+THIS WILL GO THROUGH YOUR FOLDERS FOR:
+SYNTHS
+KITS
+SONGS
+IF YOU ONLY NEED 1 FIXED DELETE THE TWO OTHER AT THE BOTTOM OF THE PYTHON FILE.
+THEY LOOK LIKE THIS:
+preset_search('SONGS')
+preset_search('DRUMS')
+preset_search('SYNTHS')
+
 Depending on which operating system you use terminal to navigate the computers directories to access the sd card.
 For windows it usually ends up being...
 
